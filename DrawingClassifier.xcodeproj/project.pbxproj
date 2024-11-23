@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D41854132CF2A35E00D34163 /* team.txt in Resources */ = {isa = PBXBuildFile; fileRef = D41854122CF2A35A00D34163 /* team.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		D41854122CF2A35A00D34163 /* team.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = team.txt; sourceTree = "<group>"; };
 		D4E491F22CF26A170097317C /* DrawingClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		D4E491E92CF26A170097317C = {
 			isa = PBXGroup;
 			children = (
+				D41854122CF2A35A00D34163 /* team.txt */,
 				D4E491F42CF26A170097317C /* DrawingClassifier */,
 				D4E491F32CF26A170097317C /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41854132CF2A35E00D34163 /* team.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
